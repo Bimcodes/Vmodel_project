@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303999152293",
+    "project_id": "blogapplicationgraphql",
+    "storage_bucket": "blogapplicationgraphql.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303999152293:android:0745cf7faff60d91fa5d4c",
+        "android_client_info": {
+          "package_name": "com.example.blog_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5JccFGDvUl1BdtoVKieZqIz3H0BQ-KyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
