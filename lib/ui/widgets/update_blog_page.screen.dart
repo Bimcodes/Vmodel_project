@@ -66,18 +66,21 @@ class UpdateBlogPage extends GetView<BlogController> {
                   keyboardType: TextInputType.text,
                   validator: isRequiredValidator,
                   onChanged: (value) => controller.body = value),
-              TextButton(
-                onPressed: () {
-                  // create
-                  controller.title.isEmpty ||
-                          controller.subTitle.isEmpty ||
-                          controller.body.isEmpty
-                      ? null
-                      : () => controller.updateBlog();
-                  Get.off(BlogPage());
-                  //controller.updateBlog();
-                },
-                child: const Text("Delete"),
+              SizedBox(height: 10),
+              Center(
+                child: ElevatedButton(
+                  onPressed: () {
+                    // create
+                    controller.title.isEmpty ||
+                            controller.subTitle.isEmpty ||
+                            controller.body.isEmpty
+                        ? null
+                        : () => controller.updateBlog();
+                    Get.off(BlogPage());
+                    //controller.updateBlog();
+                  },
+                  child: const Text("Delete"),
+                ),
               ),
             ]),
           ),
